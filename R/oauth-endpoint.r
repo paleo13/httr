@@ -71,7 +71,7 @@ oauth_endpoints <- function(name) {
       authorize = "authorization",
       access = "accessToken",
     ),
-    twitter = oauth_endpoint(base_url = "https://api.twitter.com/oauth",
+    twitter = oauth_endpoint(base_url = "https://api.twitter.com/oauth2",
       "request_token", "authenticate", "access_token"),
     vimeo = oauth_endpoint(base_url = "https://vimeo.com/oauth",
       "request_token", "authorize", "access_token"),
